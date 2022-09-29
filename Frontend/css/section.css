@@ -1,0 +1,58 @@
+.section {
+    height: 300px;
+    width: 200px;
+  }
+
+.div-consultants{
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.section ol{
+    border: none;
+    list-style-type: none;
+    height: 50%;
+    padding: 0px;
+}
+
+.section li{
+    display: inline-block;
+    height: 20px;
+    width: 35%;
+    margin: 15px;
+}
+
+.section-tooltip{
+    visibility: visible;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 5px 10px;
+    cursor: default;
+  }
+ 
+  /* Works on Chrome, Edge, and Safari */
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  /*list button*/
+  
+.list-button {
+  background-color: gray;
+  border-radius: 15px;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  font-size: 10px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.list-button:hover {opacity: 1}
